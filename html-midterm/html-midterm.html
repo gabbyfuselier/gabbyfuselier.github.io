@@ -1,16 +1,14 @@
-<html>
+<!DOCTYPE html> <!-- Error 1 -->
+<html language="en"> <!-- Error 2 -->
 <head>
-    
-    <html language="en">
-    
     <title>Error-Filled Page</title>
-    
+</head> <!-- Error 3 -->
 <body>
-    <h1>Welcome to My Error-Filled Page
+    <h1>Welcome to My Error-Filled Page </h1><!-- Error 4 -->
     
-    This is a paragraph with mismatched tags and missing closing tags.</p>
+    <p>This is a paragraph with mismatched tags and missing closing tags.</p> <!-- Error 5 -->
     
-    <ol>
+    <ul> <!-- Error 6 -->
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
@@ -23,11 +21,11 @@
         <li>Item 10</li>
     </ul>
 
-    <p>This is another paragraph without proper indentation.
+    <p>This is another paragraph without proper indentation. </p> <!-- Error 7 -->
     
-    <img src="image.jpg">
+    <img src="image.jpeg" alt="Programmer states"> <!-- Error 8 -->
 
-    <a href="https://www.example.com" target="_blank">Click me!</img>
+    <a href="https://www.example.com" target="_blank">Click me!</a> <!-- Error 9 Error 10-->
 
     <table>
         <tr>
@@ -43,7 +41,7 @@
             <td>30</td>
         </tr>
     
-    <img source="error.jpeg" alt="Error Image">
+    <img src="error.jpeg" alt="Error Image"> <!-- Error 12 -->
 
     <center>This is centered text.</center>
 
@@ -51,11 +49,11 @@
 
     <input type="button" value="Click me">
 
-    <!-- This is an unclosed comment
+    <!-- This is an unclosed comment  --> <!-- Error 13 -->
 
-    <a href="#">Link without closing tag
+    <a href="#">Link without closing tag </a><!-- Error 14-->
 
-    <p><em>Underlined text</p></em>
+    <p><em>Underlined text</em></p> <!-- Error 15 -->
 
     <dl>
         <li>Descriptive Item Title</li>
@@ -63,3 +61,18 @@
     </dl>
 </body>
 </html>
+
+<!--1. the html tag at the top of the page should be a DOCTYPE html tag
+    2. the head tag should go after the html lang tag
+    3. head needs a closing tag
+    4. needed a closing h1 tag
+    5. needed an opening paragraph tag
+    6. opening list tag doesn't match closing tag, so <ol> was changes to <ul>
+    7. needed a closing paragraph tag
+    8. needed an alt tag
+    9. image tag does not need a closing tag
+    10. anchor missing closing tag
+    11. source needs to be src
+    12. needs to be a closed comment
+    13. needed a closing anchor tag
+    14. tags need to be in the sequenctial order so <p><em> text </p></em> needs to be <p><em> text </em><p>-->
