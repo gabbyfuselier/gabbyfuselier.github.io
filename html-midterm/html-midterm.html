@@ -1,12 +1,12 @@
 <!DOCTYPE html> <!-- Error 1 -->
-<html language="en"> <!-- Error 2 -->
+<html lang="en"> <!-- Error 2 Error 3 -->
 <head>
     <title>Error-Filled Page</title>
-</head> <!-- Error 3 -->
+</head> <!-- Error 4 -->
 <body>
-    <h1>Welcome to My Error-Filled Page </h1><!-- Error 4 -->
+    <h1>Welcome to My Error-Filled Page </h1><!-- Error 5 -->
     
-    <p>This is a paragraph with mismatched tags and missing closing tags.</p> <!-- Error 5 -->
+    <p>This is a paragraph with mismatched tags and missing closing tags.</p> <!-- Error 6 -->
     
     <ol> 
         <li>Item 1</li>
@@ -19,13 +19,13 @@
         <li>Item 8</li>
         <li>Item 9</li>
         <li>Item 10</li>
-    </ol> <!-- Error 6 -->
+    </ol> <!-- Error 7 -->
 
-    <p>This is another paragraph without proper indentation. </p> <!-- Error 7 -->
+    <p>This is another paragraph without proper indentation. </p> <!-- Error 8 -->
     
-    <img src="image.jpeg" alt="Programmer states"> <!-- Error 8 -->
+    <img src="image.jpeg" alt="Programmer states"> <!-- Error 9 -->
 
-    <a href="https://www.example.com" target="_blank">Click me!</a> <!-- Error 9 Error 10-->
+    <a href="https://www.example.com" target="_blank">Click me!</a> <!-- Error 10 Error 11 -->
 
     <table>
         <tr>
@@ -40,44 +40,46 @@
             <td>Jane</td>
             <td>30</td>
         </tr>
-    </table> <!-- Error 11 -->
+    </table> <!-- Error 12 -->
     
-    <img src="error.jpeg" alt="Error Image"> <!-- Error 12 -->
+    <img src="error.jpeg" alt="Error Image"> <!-- Error 13 -->
 
     <center>This is centered text.</center>
 
-    <p bgcolor="lightgray">Text</p>
+    <p color="lightgray">Text</p> <!-- Error 14 -->
 
     <input type="button" value="Click me">
 
-    <!-- This is an unclosed comment  --> <!-- Error 13 -->
+    <!-- This is an unclosed comment  --> <!-- Error 15 -->
 
-    <a href="#">Link without closing tag </a><!-- Error 14 -->
+    <a href="#">Link without closing tag </a><!-- Error 16 -->
 
-    <p><u>Underlined text</u></p> <!-- Error 15 Error 16 -->
+    <p><u>Underlined text</u></p> <!-- Error 17 Error 18 -->
 
     <dl>
-        <dt>Descriptive Item Title</dt> <!-- Error 17 -->
-        <dd>Descriptive Item Text</dd> <!-- Error 18 -->
+        <dt>Descriptive Item Title</dt> <!-- Error 19 -->
+        <dd>Descriptive Item Text</dd> <!-- Error 20 -->
     </dl>
 </body>
 </html>
 
 <!--1. the html tag at the top of the page should be a DOCTYPE html tag
     2. the head tag should go after the html lang tag
-    3. head needs a closing tag
-    4. needed a closing h1 tag
-    5. needed an opening paragraph tag
-    6. opening list tag doesn't match closing tag, so <ul> was changes to <ol>
-    7. needed a closing paragraph tag
-    8. needed an alt tag
-    9. image tag does not need a closing tag
-    10. anchor missing closing tag
-    11. needed a closing table tag
-    12. source needs to be src
-    13. needs to be a closed comment
-    14. needed a closing anchor tag
-    15. tags need to be in the sequenctial order so <p><em> text </p></em> needs to be <p><em> text </em><p>
-    16. in order to get an underline you ise <u></u> not <em></em> the em tag italicizes
-    17. needs to have a dt tag not a li tag
-    18. needs to have a dd tag not a li tag-->
+    3. html language="en" is valid, needed to be lang="en"
+    4. head needs a closing tag
+    5. needed a closing h1 tag
+    6. needed an opening paragraph tag
+    7. opening list tag doesn't match closing tag, so <ul> was changes to <ol>
+    8. needed a closing paragraph tag
+    9. needed an alt tag
+    10. image tag does not need a closing tag
+    11. anchor missing closing tag
+    12. needed a closing table tag
+    13. source needs to be src
+    14. pgcolor is not valid have to use color
+    15. needs to be a closed comment
+    16. needed a closing anchor tag
+    17. tags need to be in the sequenctial order so <p><em> text </p></em> needs to be <p><em> text </em><p>
+    18. in order to get an underline you use <u></u> not <em></em> the em tag italicizes
+    19. needs to have a dt tag not a li tag
+    20. needs to have a dd tag not a li tag-->
