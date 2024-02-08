@@ -8,7 +8,7 @@
     
     <p>This is a paragraph with mismatched tags and missing closing tags.</p> <!-- Error 5 -->
     
-    <ul> <!-- Error 6 -->
+    <ol> 
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
@@ -19,7 +19,7 @@
         <li>Item 8</li>
         <li>Item 9</li>
         <li>Item 10</li>
-    </ul>
+    </ol> <!-- Error 6 -->
 
     <p>This is another paragraph without proper indentation. </p> <!-- Error 7 -->
     
@@ -40,6 +40,7 @@
             <td>Jane</td>
             <td>30</td>
         </tr>
+    </table> <!-- Error 11 -->
     
     <img src="error.jpeg" alt="Error Image"> <!-- Error 12 -->
 
@@ -51,13 +52,13 @@
 
     <!-- This is an unclosed comment  --> <!-- Error 13 -->
 
-    <a href="#">Link without closing tag </a><!-- Error 14-->
+    <a href="#">Link without closing tag </a><!-- Error 14 -->
 
-    <p><em>Underlined text</em></p> <!-- Error 15 -->
+    <p><u>Underlined text</u></p> <!-- Error 15 Error 16 -->
 
     <dl>
-        <li>Descriptive Item Title</li>
-        <li>Descriptive Item Text</li>
+        <dt>Descriptive Item Title</dt> <!-- Error 17 -->
+        <dd>Descriptive Item Text</dd> <!-- Error 18 -->
     </dl>
 </body>
 </html>
@@ -67,12 +68,16 @@
     3. head needs a closing tag
     4. needed a closing h1 tag
     5. needed an opening paragraph tag
-    6. opening list tag doesn't match closing tag, so <ol> was changes to <ul>
+    6. opening list tag doesn't match closing tag, so <ul> was changes to <ol>
     7. needed a closing paragraph tag
     8. needed an alt tag
     9. image tag does not need a closing tag
     10. anchor missing closing tag
-    11. source needs to be src
-    12. needs to be a closed comment
-    13. needed a closing anchor tag
-    14. tags need to be in the sequenctial order so <p><em> text </p></em> needs to be <p><em> text </em><p>-->
+    11. needed a closing table tag
+    12. source needs to be src
+    13. needs to be a closed comment
+    14. needed a closing anchor tag
+    15. tags need to be in the sequenctial order so <p><em> text </p></em> needs to be <p><em> text </em><p>
+    16. in order to get an underline you ise <u></u> not <em></em> the em tag italicizes
+    17. needs to have a dt tag not a li tag
+    18. needs to have a dd tag not a li tag-->
