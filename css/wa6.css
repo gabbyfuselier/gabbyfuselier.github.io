@@ -1,0 +1,96 @@
+* {
+    box-sizing :border-box;
+    padding: 0;
+    border: 0;
+}
+
+/* div{
+    background: url(../img/ninersWin.jpeg);
+    /* z-index: 100px;
+} */
+article {
+    width: 1200px;
+    height: 700px;
+    margin: 20px auto;
+    position: relative;
+    background: url(../img/ninersWin.jpeg);
+  }
+
+
+.topscreen{
+    font-size: 70px;
+    text-align:center;
+    top:10px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 3px 3px black;
+    
+}
+
+.image{
+    content:url(../img/cbs-logo-png-transparent.png);
+    width: 150px;
+   top: 40px;
+   right: 50px;
+   position: absolute;
+}
+
+.box{
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    padding: 7px;
+    border: 1px white solid;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0px;
+    left: 150px;
+}
+
+.team{
+    width: 200px;
+    padding-left: 50px;
+}
+
+.score{
+    width: 50px;
+   text-align: center;
+   font-weight: bold;
+}
+
+.extra{
+    width:200px;
+    text-align: center;
+}
+
+.one{
+    background-color:#AA0000;
+}
+
+.two{
+    margin-left: 200px;
+    background-color: #940101;
+}
+
+.three{
+    margin-left: 250px;
+    background-color: #E31837;
+}
+
+.four{
+    margin-left: 450px;
+    background-color:#cf1531;
+}
+
+.five{
+    margin-left: 500px;
+    background-color: #666464;
+}
+
+.six{
+    margin-left: 700px;
+    background-color: red;
+}
+
+
+
+
