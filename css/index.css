@@ -99,7 +99,7 @@ img{
     margin-right: 30px;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:600px){
     .grid{
         display: block;
         border: solid black 2px;
