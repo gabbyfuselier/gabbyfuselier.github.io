@@ -14,6 +14,5 @@ const button2 = document.querySelector("#button2");
 button2.addEventListener('click', aFunc);
 
 function aFunc(){
-    const anything = prompt("Say anything");
-    button2.textContent = `Anyway ${anything}`;
+    button2.style.backgroundColor = "red";
 }
