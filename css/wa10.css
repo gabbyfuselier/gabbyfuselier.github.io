@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #EEF8FF;
+    text-align: center;
+  }
+
+  label {
+    font-weight: bold;
+    /* font-size: 30px; */
+  }
+
+  div {
+    padding-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 5px;
+    width: 150px;
+  }
+
+  p {
+    background: #78E3FD;
+    color: #7D53DE;
+    padding: 10px;
+    visibility: hidden;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 20px;
+  }
