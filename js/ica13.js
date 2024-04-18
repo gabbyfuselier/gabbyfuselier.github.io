@@ -80,6 +80,14 @@ class Ball {
                     ball.velY = -(ball.velY);
                     this.velX = -(this.velX);
                     this.velY = -(this.velY);
+
+                    // let tempBallX = ball.velX;
+                    // ball.velX = (ball.velY);
+                    // ball.velY = (tempBallX);
+
+                    // let tempThisX = this.velX;
+                    // this.velX = (this.velY);
+                    // this.velY = (tempThisX);
                 }
             }
         }
@@ -88,7 +96,7 @@ class Ball {
 
 const balls = [];
 
-while (balls.length < 20){
+while (balls.length < 10){
     const size = random(1,20);
     const ball = new Ball(random(0 + size, width - size), random(0 + size, height - size), random(-10, 10), random(-10, 10), randomRGB(), size);
     balls.push(ball);
