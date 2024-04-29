@@ -1,0 +1,39 @@
+button{
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    background-color: pink;
+    color: red;
+    border-color: red;
+    
+
+}
+
+#button1{
+    margin-left: 2.25%;
+    position: fixed;
+    bottom: 5px;
+
+}
+
+#button2{
+    margin-left: 2.25%;
+    position: fixed;
+    bottom: 5px;
+    left: 33%;
+}
+
+#button3{
+    margin-left: 2.25%;
+    position: fixed;
+    bottom: 5px;
+    right: 2.25%;
+}
+
+table{
+    position:absolute;
+    color:red;
+    font-size: 30px;
+    text-align: center;
+    height: 90%
+}
