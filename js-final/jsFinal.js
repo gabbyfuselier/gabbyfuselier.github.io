@@ -84,17 +84,10 @@ startButton.addEventListener('click', () =>{
     if(repeater == 0 || repeater == 3){
         repeater = 1;
         const size = 20;
-        let fastSlow = random(0,1);
-        if(fastSlow == 0){
-            const ball = new Ball(random(0 + size, width - size), random(0 + size, height - size), random(-2, 2), random(-2, 2), randomRGB(), size);
-            balls.push(ball);
-        }
-        else{
-            let min = random(-100,-95);
-            let max = random(95,100);
-            const ball = new Ball(random(0 + size, width - size), random(0 + size, height - size), random(min,max), random(min, max), randomRGB(), size);
-            balls.push(ball);
-        }
+        let min = random(-100,-95);
+        let max = random(95,100);
+        const ball = new Ball(random(0 + size, width - size), random(0 + size, height - size), random(min,max), random(min, max), randomRGB(), size);
+        balls.push(ball);
         loop();
     }
     if(repeater == 2){
@@ -103,12 +96,26 @@ startButton.addEventListener('click', () =>{
     }
 });
 
+let percent = 0;
+
 const stopButton = document.querySelector('#button2');
 stopButton.addEventListener('click', () =>{
     if(repeater == 1){
         repeater = 2;
         findPercent();
-        showAlert();
+        alert('Congratulations! Your volume is now at ' + percent + '%! Try again?');
+        document.getElementById('percent').innerHTML = percent;
+        
+        let m = random(1,5);
+        let n = random(1,6);
+        document.getElementById('num' + m + n).innerHTML = 3;
+        arrTable[m][n] = 3;
+
+        let l = random(1,5);
+        let p = random(1,6);
+        document.getElementById('num' + l + p).innerHTML = 99;
+        arrTable[l][p] = 99;
+        
     }
 });
 
@@ -117,18 +124,21 @@ resetButton.addEventListener('click', () =>{
     repeater = 3;
     balls.pop();
 
+    for (let i = 1; i < 6; i++){
+        for (let j = 1; j < 7; j++){
+            let number = random(0,99);
+            document.getElementById('num' + i + j).innerHTML = number;
+            arrTable[i-1][j-1] = number;
+        }
+    }
+
 });
 
-let percent = 0;
-
-function showAlert(){
-    alert('Congratulations! Your battery is now at ' + percent + '%! Try again?');
-    // repeater = 0;
-}
-
+document.getElementById('percent').innerHTML = percent;
 
 //if I make a new array of numbers and add them to each slot of the grid and then use random for each
 
+let arrTable = [[78, 17, 88, 3, 42, 21], [52, 94, 0, 76, 100, 67], [16, 60, 87, 68, 1, 22], [12, 44, 64, 72, 92, 31], [98, 71, 86, 8, 10, 9]];
 
 function findPercent(){
     let arrX = [0];
@@ -146,8 +156,6 @@ function findPercent(){
     arrY.push((height/5)*4);
     arrY.push(height);
 
-    arrTable = [[78, 17, 88, 3, 42, 21], [52, 94, 0, 76, 100, 67], [16, 60, 87, 68, 1, 22], [12, 44, 64, 72, 92, 31], [98, 71, 86, 8, 10, 9]];
-
     for(let i = 0; i < arrX.length-1; i++){
         if(balls[0].x > arrX[i] && balls[0].x < arrX[i+1]){
             for (let j = 0; j < arrY.length - 1; j++){
@@ -159,3 +167,13 @@ function findPercent(){
         }
     }
 }
+
+for (let i = 1; i < 6; i++){
+    for (let j = 1; j < 7; j++){
+        let number = random(0,100);
+        document.getElementById('num' + i + j).innerHTML = number;
+        arrTable[i-1][j-1] = number;
+    }
+}
+
+console.log(arrTable);
