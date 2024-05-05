@@ -2,7 +2,7 @@ const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
 const width = (canvas.width = window.innerWidth);
-const height = (canvas.height = window.innerHeight - 125);
+const height = (canvas.height = window.innerHeight - 145);
 
 
 let repeater = 0;
