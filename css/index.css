@@ -17,7 +17,10 @@ header{
     font-size: 20px; 
     font-weight: normal;
     position: sticky;
+    top: 0;
     justify-content: space-between;
+    background-color: white;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 80%, rgba(255, 0, 0, 0))
 }
 
 h1{
@@ -49,13 +52,19 @@ nav a:hover{
 }
 
 .intro{
-    font-size: 20px;
+    font-size: 35px;
     margin: 5px 100px;
-    padding: 5px;
+    padding: 10px;
 }
 
 h2{
     font-size: 20px;
+    margin: 5px 40px;
+    padding: 5px;
+}
+
+h3{
+    font-size: 15px;
     margin: 5px 40px;
     padding: 5px;
 }
@@ -94,4 +103,15 @@ p{
 
 #projects img:hover{
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);  /* Horizontal, Vertical, Blur, Color */
+}
+
+.symphony{
+    display: inline-block; 
+    width: 45%;
+    margin-left: 2.5%;
+
+}
+
+.feedback{
+    margin-left: 30px;
 }
