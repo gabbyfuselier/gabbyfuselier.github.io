@@ -112,6 +112,18 @@ p{
 
 }
 
+.laundry{
+    display: inline-block;
+    width: 45%;
+    margin-left: 2.5%;
+}
+
+.video{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
 .feedback{
     margin-left: 30px;
 }
