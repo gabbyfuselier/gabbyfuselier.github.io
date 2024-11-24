@@ -87,18 +87,20 @@ p{
 
 #projects img{
     /* padding-left: 5%; */
-    width: 80%;
+    width: 100%;
     height: auto;
-    /* align-items: center; */
+    align-items: center;
     text-align: center;
     border-radius: 15px;
-    padding: 5px;
+    padding: 5px; 
 }
 
 #projects li{
-    /* margin: 5px;
-    padding: 5px; */
-    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    /* align-items: center; */
+    display: inline-block;
+
 }
 
 #projects img:hover{
@@ -113,6 +115,12 @@ p{
 }
 
 .laundry{
+    display: inline-block;
+    width: 45%;
+    margin-left: 2.5%;
+}
+
+.jewlery{
     display: inline-block;
     width: 45%;
     margin-left: 2.5%;
