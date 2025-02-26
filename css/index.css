@@ -87,6 +87,7 @@ nav ul {
 }
 
 nav a {
+    color:#772D8B;
     text-decoration: none;
     padding: 5px;
     margin-right: 10px;
@@ -193,6 +194,13 @@ p{
     display: inline-block;
     width: 47%;
     margin-left: 2%;
+}
+
+.jewlery2{
+    display: inline-block;
+    width: 47%;
+    margin-left: 2%;
+    margin-top:2%
 }
 
 .video{
