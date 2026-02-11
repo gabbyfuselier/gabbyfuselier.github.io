@@ -3,49 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../portfolioImg/gabbyLogo.png"> 
     <title>Gabby Fuselier</title>
     <link href="css/index.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    <header>
-        <h1>GABBY FUSELIER</h1>
-        <nav>
-            <ul>
-            <li>
-                <a href="index.html">HOME</a>
-            </li>
-            <!-- <li>
-                <a href="aboutMe.html">ABOUT ME</a>
-            </li>
-            <li>
-                <a href="portfolio.html">PORTFOLIO</a>
-            </li>
-            </ul> -->
-        </nav>
-    </header>
+<header>
+    <div class="brand">
+        <img id="logo" src="../portfolioImg/gabbyLogo2.png" alt="Gabby Fuselier logo">
+        <h1><a href="index.html">GABBY FUSELIER</a></h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="h5header">
+    <h5>Laundry Alarm Mechanical Project</h5>
+</section>
+
+<div class="wave-divider-h5">
+    <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+        <path fill="#CCE8CC" 
+            d ="M0,96L48,101.3C96,107,192,117,288,128C384,139,480,149,576,138.7C672,128,768,96,864,80C960,64,1056,64,1152,80C1248,96,1344,128,1392,144L1440,160L1440,0L0,0Z">
+        </path>
+    </svg>
+</div>
+
+<div class="case-section">
+
+    <!-- Hero Section -->
+    <section class="case-hero-section">
+
+        <p>
+            <strong>Role:</strong> Hardware & Systems Designer<br>
+            <strong>Tools:</strong> Microcontroller, Hall Effect Sensor, Piezo Sensor, MIDI MP3 Speaker, Soldering & Enclosure Fabrication<br>
+            <strong>Project Type:</strong> Interactive Mechanical System
+        </p>
+
+        <p>
+            The challenge was to address a personal frustration while designing for user interaction. I chose to solve the issue of roommates leaving laundry in the dryer by creating an alarm system that would only stop once the laundry room door was opened.
+        </p>
+
+        <p>
+            The goal was to design a system that encouraged immediate action rather than passive awareness. Instead of a simple timer, the solution required physical interaction with the environment to deactivate the alarm.
+        </p>
+
+    </section>
+
+    <!-- System Design -->
+    <div class="section-title"><h2>System Design</h2></div>
+
+    <p>
+        The system integrates multiple sensors to determine when laundry has finished and whether it has been removed. A piezo vibration sensor detects when the dryer is running, while a hall effect sensor determines whether the door is open or closed. A MIDI MP3 speaker delivers the alarm sound.
+    </p>
+
+    <p>
+        To prevent false triggers, I programmed time delays that allow the system to distinguish between normal cycle pauses and the actual completion of the dryer. This ensures the alarm activates only when appropriate and remains reliable in everyday use.
+    </p>
+
+    <!-- First Iteration -->
+    <div class="section-title"><h2>First Iteration</h2></div>
+
+    <p>
+        The initial build focused on functionality and sensor integration. At this stage, the system successfully detected motion and door state, triggering the alarm as intended.
+    </p>
+
+    <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px; margin:20px 0;">
+        <img src="../portfolioImg/objectPrj1/objectPrj1pt1.JPG" 
+            alt="Laundry Alarm First Draft"
+            style="width:100%; height:auto; display:block;">
+        <img src="../portfolioImg/objectPrj1/objectPrj1pt2.JPG" 
+            alt="Laundry Alarm First Draft Enclosure"
+            style="width:100%; height:auto; display:block;">
+    </div>
+
+    <div style="margin:20px 0;">
+        <video style="width:100%; height:auto;" controls>
+            <source src="../portfolioImg/objectPrj1/objectPrj1pt3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Feedback -->
+    <div class="section-title"><h2>Feedback and Iteration</h2></div>
+
+    <p>
+        Feedback highlighted opportunities to improve durability, sound quality, and overall refinement. The speaker produced minor rattling, the enclosure required reinforcement, and several wire connections needed more secure soldering.
+    </p>
+
+    <p>
+        I strengthened the enclosure, fully soldered all electrical connections, and refined the internal layout to reduce vibration. These changes improved both reliability and the overall polish of the device.
+    </p>
+
+    <!-- Results -->
+    <div class="section-title"><h2>Evaluation and Results</h2></div>
+
+    <p>
+        The final system operates reliably and achieves its intended behavioral outcome: the alarm continues until the laundry room door is opened. This ensures the dryer is cleared promptly rather than ignored.
+    </p>
+
+    <p>
+        The improved enclosure and secure wiring make the device durable and consistent in performance. The refined design feels cohesive and intentional rather than experimental.
+    </p>
+
+    <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px; margin:20px 0;">
+        <img src="../portfolioImg/objectPrj2/objectPrj2pt2.jpg" 
+            alt="Laundry Alarm Final Design"
+            style="width:100%; height:auto; display:block;">
+        <img src="../portfolioImg/objectPrj2/objectPrj2pt3.jpg" 
+            alt="Laundry Alarm Final Design View 2"
+            style="width:100%; height:auto; display:block;">
+    </div>
+
+    <div style="margin:20px 0;">
+        <video style="width:100%; height:auto;" controls>
+            <source src="../portfolioImg/objectPrj2/objectPrj2pt5.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Reflection -->
+    <div class="section-title"><h2>Reflection</h2></div>
+
+    <p>
+        This project strengthened my understanding of integrating hardware, programming logic, and physical fabrication into a cohesive interactive system.
+    </p>
+
+    <p>
+        I learned that reliability depends not only on correct code and sensor logic, but also on structural integrity and careful assembly. Iteration improved both performance and presentation, resulting in a functional device that effectively solves a real-world problem.
+    </p>
+
+</div>
+
+<!-- Footer -->
+<section id="footer">
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+        <path fill="white" 
+          d ="M0,96L48,101.3C96,107,192,117,288,128C384,139,480,149,576,138.7C672,128,768,96,864,80C960,64,1056,64,1152,80C1248,96,1344,128,1392,144L1440,160L1440,0L0,0Z">
+        </path>
+      </svg>
+    </div>
     
-    <h2>LAUNDRY ALARM MECHANICAL PROJECT</h2>
-    <p>The project prompt challenged us to address a personal pet peeve while encouraging user interaction. For my solution, I chose to tackle the frustration of my roommates leaving their clothes in the dryer. To solve this, I designed an innovative alarm system that would only stop sounding once the laundry room door was opened, ensuring that the clothes were promptly removed and helping to maintain a more organized, considerate shared space.</p>
-    <p>I implemented this solution using a hall effect sensor to detect whether the door was closed, a piezo motion sensor to determine if the laundry was running, and a MIDI MP3 speaker to play the alarm. To prevent false triggers, I incorporated delays that allow the system to accurately determine whether the laundry is on or off, ensuring it won't be confused by accidental disruptions, such as the laundry being knocked or brief pauses in the cycle.</p>
-
-    <h2>FIRST DESIGN</h2>
-    <img class= "laundry" src="../portfolioImg/objectPrj1/objectPrj1pt1.JPG" alt="Laundry Alarm first draft">
-    <img class= "laundry" src="../portfolioImg/objectPrj1/objectPrj1pt2.JPG" alt="Laundry Alarm First Draft enclosure">
-    <video class="video" controls><source src = "../portfolioImg/objectPrj1/objectPrj1pt3.mp4" type="video/mp4">Your browser does not support the video tag.</video>
-
-    <h2>NOTES</h2>
-    <ul class = "feedback">
-        <li>Implement a solution to eliminate speaker rattling, ensuring the sound quality remains clear and free from unwanted vibrations.</li>
-        <li>Strengthen the enclosure to ensure a secure, durable design, preventing any part, such as the top, from coming loose during use.</li>
-        <li>Solder all connections thoroughly to guarantee that no wires become disconnected, ensuring the system remains reliable and functional over time.</li>
-        <li>Refine the overall appearance to make the device look as polished and professional as possible, creating a finished product that feels complete and ready for use.</li>
-    </ul>
-    <h2>FINAL DESIGN</h2>
-    <img class="laundry" src="../portfolioImg/objectPrj2/objectPrj2pt2.jpg" al="Laundry Alarm final design">
-    <img class="laundry" src="../portfolioImg/objectPrj2/objectPrj2pt3.jpg" al="Laundry Alarm final design">
-
-    <video class="video" controls><source src = "../portfolioImg/objectPrj2/objectPrj2pt5.mp4" type="video/mp4">Your browser does not support the video tag.</video>
-    
+    <div id="footerText">
+      <img id="logoFooter" src="../portfolioImg/gabbyLogo2.png" alt="Gabby Fuselier logo">
+      <p>Gabby Fuselier</p>
+      <p><a href="https://www.linkedin.com/in/gabrielle-fuselier/" target="_blank">LinkedIn</a></p>
+      <p><a href="mailto:gabbyfuselier25@gmail.com">gabbyfuselier25@gmail.com</a></p>
+    </div>
+    </section>  
 
 </body>
 </html>
