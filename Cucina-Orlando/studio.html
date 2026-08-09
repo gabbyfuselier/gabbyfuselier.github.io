@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Recipe Studio | Cucina Orlando</title>
+<link rel="icon" type="image/png" href="images/logo.png">
+
+
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+
+<body>
+
+<div id="navbar"></div>
+
+
+
+
+
+<main class="studio container">
+
+
+<h1>
+Recipe Studio
+</h1>
+
+
+<p>
+Create a new Cucina Orlando recipe.
+</p>
+
+
+
+
+
+
+<form id="recipe-form">
+
+
+
+<section class="studio-section">
+
+<h2>
+Basic Information
+</h2>
+
+
+
+<label>
+Recipe Name
+
+<input id="title">
+
+</label>
+
+
+
+
+<label>
+Recipe ID
+
+<input id="id">
+
+</label>
+
+
+
+<label>
+
+    Prep Time (minutes)
+
+    <input
+    id="prep-time"
+    type="number"
+    min="0">
+
+</label>
+
+
+<label>
+
+    Cook Time (minutes)
+
+    <input
+    id="cook-time"
+    type="number"
+    min="0">
+
+</label>
+
+
+<label>
+
+    Total Time (minutes)
+
+    <input
+    id="total-time"
+    type="number"
+    min="0">
+
+</label>
+
+
+
+
+<label>
+Servings
+
+<input 
+id="servings"
+type="number">
+
+</label>
+
+
+
+
+<label>
+Difficulty
+
+<select id="difficulty">
+
+<option>Easy</option>
+
+<option>Medium</option>
+
+<option>Hard</option>
+
+</select>
+
+</label>
+
+
+<label>
+
+    <input 
+    type="checkbox"
+    id="featured">
+    
+    Feature this recipe on homepage
+    
+    </label>
+    
+    
+    
+    <label>
+    
+    <input 
+    type="checkbox"
+    id="approved"
+    checked>
+    
+    Cucina Orlando Approved
+    
+    </label>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<section class="studio-section">
+
+
+<h2>
+Categories
+</h2>
+
+
+<div class="tag-field">
+
+    <h3>
+        Meal
+    </h3>
+
+
+    <div
+    id="meal-options"
+    class="tag-options">
+    </div>
+
+
+    <div
+    id="meal-tags"
+    class="tag-container">
+    </div>
+
+</div>
+
+
+
+
+<div class="tag-field">
+
+    <h3>
+        Cuisine
+    </h3>
+
+
+    <div
+    id="cuisine-options"
+    class="tag-options">
+    </div>
+
+
+    <div
+    id="cuisine-tags"
+    class="tag-container">
+    </div>
+
+
+    <div class="new-tag">
+
+        <input
+        id="cuisine-input"
+        placeholder="Add new cuisine">
+
+
+        <button
+        type="button"
+        onclick="addTag('cuisine')">
+
+            + Add
+
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<div class="tag-field">
+
+    <h3>
+        Protein
+    </h3>
+
+
+    <div
+    id="protein-options"
+    class="tag-options">
+    </div>
+
+
+    <div
+    id="protein-tags"
+    class="tag-container">
+    </div>
+
+
+    <div class="new-tag">
+
+        <input
+        id="protein-input"
+        placeholder="Add new protein">
+
+
+        <button
+        type="button"
+        onclick="addTag('protein')">
+
+            + Add
+
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<div class="tag-field">
+
+    <h3>
+        Dish Type
+    </h3>
+
+
+    <div
+    id="dishType-options"
+    class="tag-options">
+    </div>
+
+
+    <div
+    id="dishType-tags"
+    class="tag-container">
+    </div>
+
+
+    <div class="new-tag">
+
+        <input
+        id="dishType-input"
+        placeholder="Add new dish type">
+
+
+        <button
+        type="button"
+        onclick="addTag('dishType')">
+
+            + Add
+
+        </button>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="tag-field">
+
+    <h3>
+        Equipment
+    </h3>
+
+
+    <div
+    id="equipment-options"
+    class="tag-options">
+    </div>
+
+
+    <div
+    id="equipment-tags"
+    class="tag-container">
+    </div>
+
+
+    <div class="new-tag">
+
+        <input
+        id="equipment-input"
+        placeholder="Add new equipment">
+
+
+        <button
+        type="button"
+        onclick="addTag('equipment')">
+
+            + Add
+
+        </button>
+
+    </div>
+
+    <div class="tag-field">
+
+        <h3>
+            Tags
+        </h3>
+    
+    
+        <div
+        id="tags-options"
+        class="tag-options">
+        </div>
+    
+    
+        <div
+        id="tags-tags"
+        class="tag-container">
+        </div>
+    
+    
+        <div class="new-tag">
+    
+            <input
+            id="tags-input"
+            placeholder="Add new tag">
+    
+    
+            <button
+            type="button"
+            onclick="addTag('tags')">
+    
+                + Add
+    
+            </button>
+    
+        </div>
+    
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="studio-section">
+
+
+<h2>
+Media
+</h2>
+
+
+<label>
+Hero Image Filename
+
+<input id="hero-image">
+
+</label>
+
+
+
+<label>
+Video URL
+
+<input id="video">
+
+</label>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="studio-section">
+
+
+<h2>
+Ingredients
+</h2>
+
+
+<div id="ingredients">
+
+
+    <div class="ingredient-row">
+
+        <input
+        type="text"
+        placeholder="Quantity">
+    
+        <input
+        type="text"
+        placeholder="Unit">
+    
+        <input
+        type="text"
+        placeholder="Ingredient">
+    
+        <input
+        type="text"
+        placeholder="Note (optional)">
+    
+        <button
+        type="button"
+        class="remove-field"
+        onclick="removeField(this)">
+    
+            ×
+    
+        </button>
+    
+    </div>
+
+
+</div>
+
+
+
+<button 
+type="button"
+id="add-ingredient">
+
++
+Add Ingredient
+
+</button>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="studio-section">
+
+
+<h2>
+Instructions
+</h2>
+
+
+<div id="steps">
+
+    <div class="step-row">
+
+        <textarea
+        placeholder="Describe Step 1"></textarea>
+
+        <button
+        type="button"
+        class="remove-field"
+        onclick="removeField(this)">
+
+            ×
+
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<button 
+type="button"
+id="add-step">
+
++
+Add Step
+
+</button>
+
+
+
+</section>
+
+
+
+
+
+
+
+<button 
+class="button primary"
+type="submit">
+
+Generate Recipe
+
+</button>
+
+
+
+</form>
+
+
+
+
+
+
+
+
+<pre id="output"></pre>
+
+
+
+</main>
+
+
+
+
+<script src="js/tag-input.js"></script>
+
+<script src="js/studio.js"></script>
+
+
+</body>
+
+</html>

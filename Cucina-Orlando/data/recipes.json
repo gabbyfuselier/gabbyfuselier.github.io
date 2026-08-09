@@ -1,0 +1,136 @@
+[
+    {
+        "id": "sausage-and-broccoli-rabe-stoup",
+        "title": "Sausage and Broccoli Rabe Stoup",
+        "approved": true,
+        "featured": true,
+        "dateAdded": "2026-08-09",
+        "lastUpdated": "2026-08-09",
+        "images": {
+          "hero": "sausage-and-broccoli-rabe-stoup/wideShot.JPG",
+          "gallery": []
+        },
+        "video": "",
+        "time": {
+          "total": 58
+        },
+        "servings": 4,
+        "difficulty": "Easy",
+        "categories": {
+          "meal": [
+            "Dinner"
+          ],
+          "protein": [
+            "Sausage"
+          ],
+          "cuisine": [
+            "Italian"
+          ],
+          "dishType": [
+            "Soup",
+            "Pasta"
+          ],
+          "equipment": [],
+          "tags": []
+        },
+        "ingredients": [
+          {
+            "quantity": "",
+            "unit": "",
+            "name": "Salt"
+          },
+          {
+            "quantity": 2,
+            "unit": "small bundles",
+            "name": "broccoli rabe"
+          },
+          {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "extra-virgin olive oil"
+          },
+          {
+            "quantity": 2,
+            "unit": "pounds",
+            "name": "bulk Italian sweet or hot sausage"
+          },
+          {
+            "quantity": 1,
+            "unit": "",
+            "name": "onion",
+            "note": "chopped"
+          },
+          {
+            "quantity": 4,
+            "unit": "cloves",
+            "name": "garlic",
+            "note": "finely chopped"
+          },
+          {
+            "quantity": 2,
+            "unit": "tablespoons",
+            "name": "fresh thyme leaves",
+            "note": "chopped"
+          },
+          {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "lemon zest"
+          },
+          {
+            "quantity": "",
+            "unit": "",
+            "name": "A few grates nutmeg"
+          },
+          {
+            "quantity": 8,
+            "unit": "cups",
+            "name": "chicken stock in a box"
+          },
+          {
+            "quantity": 1,
+            "unit": "box",
+            "name": "orecchietti pasta"
+          },
+          {
+            "quantity": "",
+            "unit": "",
+            "name": "Grate pecorino or parmigiano-reggiano",
+            "note": "for topping"
+          },
+          {
+            "quantity": "",
+            "unit": "",
+            "name": "Crusty bread",
+            "note": "such as ciabatta"
+          }
+        ],
+        "steps": [
+          {
+            "description": "In a medium pot, bring a few inches of water to a boil over medium heat then salt the water.",
+            "image": ""
+          },
+          {
+            "description": "Trim the broccoli rabe and cut it into 1 1/2 to 2 inch lengths. Simmer in boiling water to reduce bitterness, about 4 to 5 minutes. Then cold shock in ice water and drain very well. ",
+            "image": ""
+          },
+          {
+            "description": "Heat a Dutch over or large soup pot over medium high heat with extra virgin olive oil, a turn of the pan. Add the sausage and brown and crumble, 7 to 8 minutes. Add the onions and garlic and cook for a few more minutes. Add the thyme and lemon zest, then add broccoli rabe and season with a little nutmeg. Stir in the stock and bring to a boil. Simmer a few minutes to combine flavors. Turn off heat, cool and store for a make ahead meal. ",
+            "image": ""
+          },
+          {
+            "description": "Reheat stoup over low heat and bring to a low boil. Add the pasta and cook to al dente, about 10 minutes. ",
+            "image": ""
+          },
+          {
+            "description": "Ladle the stoup in shallow bowls and garnish with cheese. Serve with crusty bread for mopping.",
+            "image": ""
+          }
+        ],
+        "nutrition": {},
+        "private": {
+          "source": "",
+          "notes": ""
+        }
+      }
+  ]

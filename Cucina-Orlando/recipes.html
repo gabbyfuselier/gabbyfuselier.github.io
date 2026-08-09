@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Recipes | Cucina Orlando</title>
+<link rel="icon" type="image/png" href="images/logo.png">
+
+<link rel="stylesheet" href="css/style.css">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+
+<body>
+
+
+<!-- <header class="header static-header">
+
+<nav class="nav container">
+
+
+<a class="logo" href="index.html">
+Cucina Orlando
+</a>
+
+
+
+<div class="nav-links">
+
+<a href="index.html">
+Home
+</a>
+
+
+<a href="recipes.html">
+Recipes
+</a>
+
+
+<a href="random.html">
+Surprise Me
+</a>
+
+
+</div>
+
+
+
+</nav>
+
+</header> -->
+
+<div id="navbar"></div>
+
+
+
+
+
+<main class="recipes-page container">
+
+
+<section class="page-title">
+
+<h1>
+Recipes
+</h1>
+
+<p>
+Browse the Cucina Orlando collection.
+</p>
+
+</section>
+
+
+
+
+
+<section class="search-area">
+
+
+<input 
+id="recipe-search"
+type="text"
+placeholder="Search recipes or ingredients..."
+>
+
+
+
+<button
+id="filter-toggle"
+type="button"
+aria-expanded="false"
+aria-controls="filters">
+
+Filters
+
+</button>
+
+
+</section>
+
+
+
+
+
+
+<section id="filters" class="filters">
+
+    <!-- Meal stays controlled/static -->
+
+    <div>
+
+        <h3>
+            Meal
+        </h3>
+
+        <div id="meal-filters"></div>
+
+    </div>
+
+
+    <!-- These are generated automatically -->
+
+    <div>
+
+        <h3>
+            Protein
+        </h3>
+
+        <div id="protein-filters"></div>
+
+    </div>
+
+
+    <div>
+
+        <h3>
+            Cuisine
+        </h3>
+
+        <div id="cuisine-filters"></div>
+
+    </div>
+
+
+    <div>
+
+        <h3>
+            Dish Type
+        </h3>
+
+        <div id="dishType-filters"></div>
+
+    </div>
+
+
+    <div>
+
+        <h3>
+            Equipment
+        </h3>
+
+        <div id="equipment-filters"></div>
+
+    </div>
+
+
+    <div>
+
+        <h3>
+            Tags
+        </h3>
+
+        <div id="tags-filters"></div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<section>
+
+<p id="recipe-count"></p>
+
+
+<div 
+id="recipe-grid"
+class="recipe-grid">
+</div>
+
+
+</section>
+
+
+
+</main>
+
+<div id="footer"></div>
+
+
+
+<script src="js/components.js"></script>
+
+<script src="js/recipes.js"></script>
+
+
+</body>
+
+
+</html>
