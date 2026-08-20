@@ -2432,10 +2432,10 @@ display: grid;
 }
 
 
-.meal-card.lunch {
+.meal-card.sides {
 
     background-image:
-        url("../images/homepage/lunch.JPG");
+        url("../images/homepage/sides.JPG");
 
 }
 

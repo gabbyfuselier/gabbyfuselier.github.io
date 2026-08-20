@@ -133,6 +133,7 @@
           "notes": ""
         }
     },
+
     {
         "id": "twice-baked-potatoes",
         "title": "Twice Baked Potatoes",
@@ -262,6 +263,7 @@
           "notes": ""
         }
     },
+
     {
         "id": "broccoli-pasta",
         "title": "Broccoli Pasta",
@@ -385,5 +387,122 @@
           "source": "",
           "notes": ""
         }
-      }
+    },
+
+    {
+        "id": "chocolate-chip-cookies",
+        "title": "Chocolate Chip Cookies",
+        "approved": true,
+        "featured": false,
+        "dateAdded": "2026-08-20",
+        "lastUpdated": "2026-08-20",
+        "images": {
+          "hero": "chocolate-chip-cookies/heroImage.jpg",
+          "gallery": []
+        },
+        "video": "",
+        "time": {
+          "prep": 15
+        },
+        "servings": 48,
+        "difficulty": "Easy",
+        "categories": {
+          "meal": [
+            "Dessert"
+          ],
+          "protein": [],
+          "cuisine": [
+            "American"
+          ],
+          "dishType": [],
+          "equipment": [],
+          "tags": []
+        },
+        "ingredients": [
+          {
+            "quantity": 2,
+            "unit": "sticks",
+            "name": "butter",
+            "note": ""
+          },
+          {
+            "quantity": 4.5,
+            "unit": "cups",
+            "name": "flour",
+            "note": ""
+          },
+          {
+            "quantity": 1.5,
+            "unit": "cups",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "quantity": 1.5,
+            "unit": "cups",
+            "name": "brown sugar",
+            "note": ""
+          },
+          {
+            "quantity": 2,
+            "unit": "teaspoons",
+            "name": "baking soda",
+            "note": ""
+          },
+          {
+            "quantity": 2,
+            "unit": "teaspoons",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "quantity": 4,
+            "unit": "",
+            "name": "eggs",
+            "note": "room temperature"
+          },
+          {
+            "quantity": 2,
+            "unit": "teaspoons",
+            "name": "vanilla extract",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "description": "Add the butter, brown sugar, and granulated sugar to a mixing bowl. Mix for 2–3 minutes, stopping just before the mixture becomes fully creamy.",
+            "image": ""
+          },
+          {
+            "description": "Add the eggs gradually while the mixer is running. Mix in the vanilla until combined.",
+            "image": ""
+          },
+          {
+            "description": "Slowly add the flour, salt, and baking soda. Mix just until the ingredients are incorporated—do not over mix.",
+            "image": ""
+          },
+          {
+            "description": "Fold in the chocolate chips by hand rather than using the mixer.",
+            "image": ""
+          },
+          {
+            "description": "Scoop the dough into medium-sized portions and place them on a baking sheet. Refrigerate for 5–10 minutes before baking.",
+            "image": ""
+          },
+          {
+            "description": "Bake at 375°F for 9 minutes. If the cookies aren't golden brown around the edges, continue baking in 1-minute increments until they reach the desired color.",
+            "image": ""
+          },
+          {
+            "description": "Remove from the oven and allow the cookies to cool before serving.",
+            "image": ""
+          }
+        ],
+        "nutrition": {},
+        "private": {
+          "source": "",
+          "notes": ""
+        }
+    }
+    
   ]

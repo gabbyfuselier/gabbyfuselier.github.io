@@ -30,7 +30,6 @@ const recipeTags = {
 const mealOptions = [
 
     "Breakfast",
-    "Lunch",
     "Dinner",
     "Dessert",
     "Sides"
