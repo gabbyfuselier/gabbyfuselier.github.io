@@ -32,7 +32,8 @@ const mealOptions = [
     "Breakfast",
     "Lunch",
     "Dinner",
-    "Dessert"
+    "Dessert",
+    "Sides"
 
 ];
 

@@ -120,7 +120,8 @@ function createFilters(){
         "Breakfast",
         "Lunch",
         "Dinner",
-        "Dessert"
+        "Dessert",
+        "Sides"
     ];
 
 
