@@ -503,6 +503,163 @@
           "source": "",
           "notes": ""
         }
+    },
+
+    {
+        "id": "ceasar-salad",
+        "title": "Ceasar Salad",
+        "approved": true,
+        "featured": false,
+        "dateAdded": "2026-08-21",
+        "lastUpdated": "2026-08-21",
+        "images": {
+          "hero": "ceasar-salad/heroImage.JPG",
+          "gallery": []
+        },
+        "video": "",
+        "time": {
+          "prep": 15,
+          "total": 15
+        },
+        "servings": 6,
+        "difficulty": "Easy",
+        "categories": {
+          "meal": [
+            "Sides"
+          ],
+          "protein": [],
+          "cuisine": [
+            "American"
+          ],
+          "dishType": [
+            "Salad"
+          ],
+          "equipment": [],
+          "tags": []
+        },
+        "ingredients": [
+          {
+            "quantity": 2,
+            "unit": "tablespoons",
+            "name": "unsalted butter",
+            "note": "melted"
+          },
+          {
+            "quantity": 2,
+            "unit": "tablespoons",
+            "name": "extra virgin olive oil",
+            "note": "for the croutons"
+          },
+          {
+            "quantity": 1,
+            "unit": "loaf",
+            "name": "rustic Italian bread, crusts removed, cut into 3/4 inch cubes",
+            "note": ""
+          },
+          {
+            "quantity": 2,
+            "unit": "teaspoons",
+            "name": "salt",
+            "note": "for the croutons"
+          },
+          {
+            "quantity": 0.25,
+            "unit": "teaspoons",
+            "name": "ground cayenne pepper",
+            "note": ""
+          },
+          {
+            "quantity": 0.5,
+            "unit": "teaspoons",
+            "name": "freshly ground black pepper",
+            "note": "for the croutons"
+          },
+          {
+            "quantity": 2,
+            "unit": "cloves",
+            "name": "garlic",
+            "note": ""
+          },
+          {
+            "quantity": 4,
+            "unit": "",
+            "name": "anchovy fillets",
+            "note": ""
+          },
+          {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "salt",
+            "note": "for the dressing"
+          },
+          {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "freshly ground black pepper",
+            "note": "for the dressing"
+          },
+          {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "freshly squeezed lemon juice",
+            "note": ""
+          },
+          {
+            "quantity": 1,
+            "unit": "teaspoon",
+            "name": "worcestershire sauce",
+            "note": ""
+          },
+          {
+            "quantity": 0.5,
+            "unit": "teaspoons",
+            "name": "dijon mustard",
+            "note": ""
+          },
+          {
+            "quantity": 1,
+            "unit": "tablespoon",
+            "name": "mayonnaise",
+            "note": ""
+          },
+          {
+            "quantity": null,
+            "unit": "cup",
+            "name": "extra virgin olive oil",
+            "note": ""
+          },
+          {
+            "quantity": 2,
+            "unit": "",
+            "name": "ten ounce heads of romaine lettuce",
+            "note": ""
+          },
+          {
+            "quantity": 1,
+            "unit": "cup",
+            "name": "freshly grated parmesan",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "description": "Heat over to 450 degrees. Combine the butter and olive oil for the croutons in a large bowl. Add the cubes of bread, and toss until coated. Sprinkle the salt, cayenne pepper, and black pepper; toss until evenly coated. Spread the bread in a single layer on an 11-by-17-inch baking sheet. Bake until the croutons are golden, about 10 minutes. Set aside until needed.",
+            "image": ""
+          },
+          {
+            "description": "Place anchovy fillets and salt for the dressing into the blender. Using a garlic press, mash the garlic and add it to the blender. Add the lemon juice, worcestershire sauce, dijon mustard, mayonnaise, and olive oil. Blend thoroughly, you want the oil completely incorporated.",
+            "image": ""
+          },
+          {
+            "description": "Chop the romaine leaves into 1 to 1.5 inch pieces. Add the croutons, romaine, dressing, and cheese to the bowl and toss well. Serve immediately.",
+            "image": ""
+          }
+        ],
+        "nutrition": {},
+        "private": {
+          "source": "",
+          "notes": ""
+        }
     }
     
   ]
