@@ -1,6 +1,8 @@
 let allRecipes = [];
 
-let selectedMeal = "";
+let selectedMeal = "Dinner";
+
+let currentRecipe = null;
 
 
 
@@ -24,20 +26,15 @@ async function loadRandomRecipes() {
         );
 
 
+    /*
+    If a meal is specifically included
+    in the URL, use it.
+
+    Otherwise default to Dinner.
+    */
+
     selectedMeal =
-        params.get("meal");
-
-
-
-    if (!selectedMeal) {
-
-        showRandomRecipe(
-            allRecipes
-        );
-
-        return;
-
-    }
+        params.get("meal") || "Dinner";
 
 
 
@@ -101,15 +98,50 @@ async function loadRandomRecipes() {
 function showRandomRecipe(recipes) {
 
 
+    /*
+    Remove the recipe currently being shown
+    from the possible choices.
+    */
+
+    let availableRecipes =
+        recipes.filter(recipe => {
+
+            return (
+                !currentRecipe ||
+                recipe.id !== currentRecipe.id
+            );
+
+        });
+
+
+
+    /*
+    If there is only one recipe available,
+    allow it to show again rather than
+    leaving the randomizer empty.
+    */
+
+    if (availableRecipes.length === 0) {
+
+        availableRecipes = recipes;
+
+    }
+
+
+
     const randomIndex =
         Math.floor(
             Math.random() *
-            recipes.length
+            availableRecipes.length
         );
 
 
     const recipe =
-        recipes[randomIndex];
+        availableRecipes[randomIndex];
+
+
+    currentRecipe =
+        recipe;
 
 
 
@@ -271,6 +303,11 @@ function tryAnotherRecipe() {
     }
 
 
+
+    /*
+    showRandomRecipe() will automatically
+    exclude the recipe currently being shown.
+    */
 
     showRandomRecipe(
         mealRecipes
