@@ -227,6 +227,7 @@ h1 a:hover {
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:1rem;
+    align-items: stretch;
 }
 
 .featured-project-grid img{
@@ -238,9 +239,13 @@ h1 a:hover {
 }
 
 .featured-project-grid .featured-card{
+    height: 100%;
+    box-sizing: border-box;
     background-color: var(--primary-color);
     padding: 0.75em 0.75em 1em 0.75em;
     border-radius: 1.5em;
+    text-decoration: none;
+    color: inherit;
 }
 
 .featured h1{
@@ -258,11 +263,64 @@ h1 a:hover {
     background-color: var(--secondary-color);
 }
 
-.featured-card a h1{
-    color:var(--text-color);
+.view-more{
+    display: inline-block;
+    padding: 1em 0;
     text-decoration: none;
+    color: inherit;
+    font-size: 18px;
 }
 
+.view-more:hover{
+    color:var(--secondary-color);
+}
+
+
+/* Footer */
+#footer{
+    background-color: var(--primary-color);
+    align-items: center;
+    text-align: center;
+    padding: 5em 0em;
+}
+
+#footer img{
+    height: 4em;
+}
+
+#footer h1{
+    padding: 0.5em 0em;
+}
+
+#footer p a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding-top: 1em;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    width:28em;
+    margin:0 auto;
+    border-bottom: 1px solid var(--text-color);
+    border-top: 1px solid var(--text-color);
+    padding: 1em;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-links a:hover,
+#footer p a:hover{
+    color: var(--secondary-color);
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: inherit;
+}
 
 
 
