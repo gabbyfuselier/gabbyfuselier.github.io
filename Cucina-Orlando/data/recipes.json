@@ -660,6 +660,118 @@
           "source": "",
           "notes": ""
         }
+    },
+
+    {
+      "id": "zucchini-italia",
+      "title": "Zucchini Italia",
+      "approved": true,
+      "featured": false,
+      "dateAdded": "2026-09-02",
+      "lastUpdated": "2026-09-02",
+      "images": {
+        "hero": "zucchini-italia/heroImage.jpg",
+        "gallery": []
+      },
+      "video": "",
+      "time": {
+        "prep": 30
+      },
+      "servings": 12,
+      "difficulty": "Medium",
+      "categories": {
+        "meal": [
+          "Dinner"
+        ],
+        "protein": [
+          "Sausage"
+        ],
+        "cuisine": [
+          "Italian"
+        ],
+        "dishType": [],
+        "equipment": [],
+        "tags": []
+      },
+      "ingredients": [
+        {
+          "quantity": 6,
+          "unit": "",
+          "name": "medium size zucchini",
+          "note": "halved"
+        },
+        {
+          "quantity": 1,
+          "unit": "pound",
+          "name": "mild Italian sausage",
+          "note": "bulk"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "name": "small onion",
+          "note": "chopped"
+        },
+        {
+          "quantity": 1,
+          "unit": "clove",
+          "name": "garlic",
+          "note": "crushed"
+        },
+        {
+          "quantity": null,
+          "unit": "cup",
+          "name": "flavored bread crumbs",
+          "note": ""
+        },
+        {
+          "quantity": null,
+          "unit": "cup",
+          "name": "parmesan",
+          "note": "grated"
+        },
+        {
+          "quantity": 1,
+          "unit": "tablespoon",
+          "name": "olive oil",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "description": "Cook zucchini in salted water in a 9 by 11 pan covered in Seran wrap for 9-10 minutes in the microwave. Lift out carefully and place on a cookie sheet.",
+          "image": ""
+        },
+        {
+          "description": "Scoop out insides and place in a colander. Mash with a fork or potato masher.",
+          "image": ""
+        },
+        {
+          "description": "Put olive oil in frying pan. Break up sausage. Sauté in frying pan until browned",
+          "image": ""
+        },
+        {
+          "description": "Stir in the garlic and the onion and sauce until onion is soft.",
+          "image": ""
+        },
+        {
+          "description": "Stir in the mashed zucchini and bread crumbs. Add more breadcrumbs to absorb excess liquid.",
+          "image": ""
+        },
+        {
+          "description": "Turn off heat. Add Parmesan and mix in.",
+          "image": ""
+        },
+        {
+          "description": "Spoon into the shells and bake at 350 for 30 minutes until heated through.",
+          "image": ""
+        }
+      ],
+      "nutrition": {},
+      "private": {
+        "source": "",
+        "notes": ""
+      }
     }
     
   ]
