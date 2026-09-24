@@ -96,22 +96,24 @@ h1 a:hover {
     color: var(--secondary-color);
 }
 
+/* Hamburger */
 
-/* Hero */
-/* .hero{
-    text-align: center;
-    height: auto;
-    width:100%;
-    background-color: var(--base-color2);
-    padding: 8em 2em;
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
-    url(../portfolioImg/heroImage.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    
-} */
+.hamburger{
+    display: none;
+    background: none;
+    border: none;
+    padding: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+}
 
+.hamburger span{
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px 0;
+    background-color: var(--text-color);
+}
 
 .hero {
     position: relative;
@@ -325,6 +327,8 @@ h1 a:hover {
 
 
 /* Media Screen */
+
+/* home page project grid */
 @media screen and (max-width:850px) {
     
     .featured-project-grid{
@@ -338,6 +342,74 @@ h1 a:hover {
 
     .hero p{
         padding-top:0.5em;
+    }
+
+}
+
+/* Hamburger Menu */
+@media screen and (max-width:700px) {
+    #logo{
+        margin-left: 20px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    nav.open {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        /* background-color: var(--base-color1); */
+        border-bottom: 1.5px solid var(--primary-color);
+        background-color: rgb(from var(--base-color1) r g b / 0.9); 
+        backdrop-filter: blur(8px) saturate(120%);
+        -webkit-backdrop-filter: blur(8px) saturate(120%);
+    }
+
+    nav.open ul {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 1em 0;
+        margin: 0;
+        gap: 1em;
+        border-top: 1px solid var(--primary-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    nav.open li{
+        width: 100%;
+        text-align: center;
+    }
+
+    nav.open li + li {
+        border-top: 1px solid var(--base-color2);
+        padding-top: 1em;
+    }
+
+    nav.open li a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+
+@media screen and (max-width:700px){
+    /* Footer Lines */
+    .footer-links{
+        width: 20em;
+    }
+
+    /* CTA Buttons */
+    .cta-button{
+        padding: 0.5em 1em;
     }
 
 }
