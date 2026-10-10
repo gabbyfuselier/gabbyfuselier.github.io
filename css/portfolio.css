@@ -611,6 +611,12 @@ h1 a:hover {
         background-size: 290px 500px;
     }
 
+    .hero-left{
+        background: url("../portfolioImg/heroBackgroundMobileLeft.png") no-repeat right top;
+        width:290px;
+        background-size: 290px 500px;
+    }
+
 }
 
 @media screen and (max-width:700px){
