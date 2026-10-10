@@ -131,28 +131,37 @@ h1 a:hover {
 }
 
 .hero-left {
-    width: 390px;
+    /* width: 390px; */
+    width: 290px;
     height: 500px;
     flex-shrink: 0;
 
-    background: url("../portfolioImg/hero-left.png") no-repeat left top;
-    background-size: 390px 500px;
+    /* background: url("../portfolioImg/hero-left.png") no-repeat left top; */
+    background: url("../portfolioImg/heroBackgroundOGleft.png") no-repeat left top;
+
+    /* background-size: 390px 500px; */
+    background-size: 290px 500px;
 }
 
 .hero-middle {
     flex: 1;
     min-width: 0;
     height: 500px;
-    background: url("../portfolioImg/hero-middle.png") no-repeat;
+    /* background: url("../portfolioImg/hero-middle.png") no-repeat; */
+    background: url("../portfolioImg/heroBackgroundOGcenter.png") no-repeat;
+
     background-size: 100% 500px;
 }
 
 .hero-right {
-    width: 319px;
+    /* width: 319px; */
+    width: 284px;
     height: 500px;
     flex-shrink: 0;
-    background: url("../portfolioImg/hero-right.png") no-repeat right top;
-    background-size: 319px 500px;
+    /* background: url("../portfolioImg/hero-right.png") no-repeat right top; */
+    background: url("../portfolioImg/heroBackgroundOGright.png") no-repeat right top;
+    /* background-size: 319px 500px; */
+    background-size: 284px 500px;
 }
 
 .hero-content {
@@ -593,6 +602,13 @@ h1 a:hover {
         display: block;
         width: 100%;
         box-sizing: border-box;
+    }
+
+/* deal later */
+    .hero-right{
+        background: url("../portfolioImg/heroBackgroundOGcenter.png") no-repeat right top;
+        width:290px;
+        background-size: 290px 500px;
     }
 
 }
