@@ -4,275 +4,262 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../portfolioImg/gabbyLogo.png"> 
-    <title>Bodi Process</title>
-    <link href="../css/index.css" rel="stylesheet" type="text/css">
+    <title>Pace | Gabby Fuselier</title>
+    <link href="../css/portfolio.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+    <header>
+        <div class="brand">
+            <a href="index.html"><img id="logo" src="../portfolioImg/gabbyLogo2.png" alt="Gabby Fuselier logo"></a>
+            <h1><a href="../index.html">Gabby Fuselier</a></h1>
+          </div>
+        <nav>
+            <ul>
+                <li><a href="../aboutMe.html">About me</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    
+        <button class="hamburger" aria-label="Open navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    
+    </header>
 
-<header>
-    <div class="brand">
-      <img id="logo" src="../portfolioImg/gabbyLogo2.png">
-      <h1><a href="../index.html">GABBY FUSELIER</a></h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="../aboutMe.html">About Me</a></li>
-        <li><a href="../projects.html">Projects</a></li>
-        <li><a href="../resume.html">Resume</a></li>
-      </ul>
-    </nav>
-</header>
-
-<section class="h5header">
-    <h5>Pace</h5>
-</section>
-
-<div class="wave-divider-h5">
-<svg viewBox="0 0 1440 150" preserveAspectRatio="none">
-    <path fill="#CCE8CC" 
-        d ="M0,96L48,101.3C96,107,192,117,288,128C384,139,480,149,576,138.7C672,128,768,96,864,80C960,64,1056,64,1152,80C1248,96,1344,128,1392,144L1440,160L1440,0L0,0Z">
-    </path>
-</svg>
-</div>
-
-<div class="case-section">
     <div class="case-hero-image">
         <img src="../portfolioImg/capstone/heroImage.JPG"
-            alt="Cheyenne Mountain Zoo Redesign Hero Image"
-            style="width:100%; height:auto">
+            alt="Pace Hero Image">
     </div>
+    
+    <section class="project">
+        <h1>Pace</h1>
+        <h4>Capstone project</h4>
 
-<!-- ROLE -->
-<p>
-<strong>Role:</strong> Researcher, Designer, Prototyper, Engineer<br>
-<strong>Tools:</strong> Sketchup, Arduino IDE, 3D Printer, QT PY Microcontroller, Vibromotor, servo motor, Capacitive touch sensor<br>
-<strong>Project Type:</strong> Physical design, product design, physical computing<br>
-</p>
+        <!-- ROLE -->
+        <p>
+            <strong>Role:</strong> Researcher, Designer, Prototyper, Engineer<br>
+            <strong>Tools:</strong> Sketchup, Arduino IDE, 3D Printer, QT PY Microcontroller, Vibromotor, servo motor, Capacitive touch sensor<br>
+            <strong>Project Type:</strong> Physical design, product design, physical computing<br>
+        </p>
+        <!-- SUMMARY -->
+        <p>
+            Pace is a handheld tactile device designed to support nervous system regulation. Instead of tracking habits or rewarding behavior, it responds to interaction with subtle movement, vibration, and resistance. The goal is to guide users from restless energy into a calmer state through physical interaction rather than instruction.
+        </p>
 
-<!-- SUMMARY -->
-<p>
-Pace is a handheld tactile device designed to support nervous system regulation. Instead of tracking habits or rewarding behavior, it responds to interaction with subtle movement, vibration, and resistance. The goal is to guide users from restless energy into a calmer state through physical interaction rather than instruction.
-</p>
+        <!-- ORIGINAL IDEA -->
+        <h2>Original Idea</h2>
+        <p>
+            The project started as a habit-tracking robot that would respond emotionally to completed or missed habits. It was designed to encourage consistency through visual feedback, using reactions like “happy” or “sad” states depending on user behavior.
+        </p>
 
-<!-- ORIGINAL IDEA -->
-<div class="section-title"><h2>Original Idea</h2></div>
-<p>
-The project started as a habit-tracking robot that would respond emotionally to completed or missed habits. It was designed to encourage consistency through visual feedback, using reactions like “happy” or “sad” states depending on user behavior.
-</p>
+        <p>
+            This was then shifted when I realized the limitations of this project and that the changes that would need to be made to make it work no longer brought  me joy. 
+        </p>
 
-<p>
-    This was then shifted when I realized the limitations of this project and that the changes that would need to be made to make it work no longer brought  me joy. 
-</p>
+        <!-- SHIFT -->
+        <h2>Shift to Breathing Fidget</h2>
+        <p>
+            The project pivoted away from tracking habits toward supporting regulation. Instead of reacting to success or failure, the device now provides a steady breathing rhythm and tactile feedback that users can choose to follow or ignore.
+        </p>
 
-<!-- SHIFT -->
-<div class="section-title"><h2>Shift to Breathing Fidget</h2></div>
-<p>
-The project pivoted away from tracking habits toward supporting regulation. Instead of reacting to success or failure, the device now provides a steady breathing rhythm and tactile feedback that users can choose to follow or ignore.
-</p>
+        <p>
+            I redesigned the experience focusing on meeting users where they are, not forcing calm immediately.
+        </p>
+        <ol>
+            <li>User reaches for the object during stress</li>
+            <li>Fidgeting begins naturally</li>
+            <li>Object's breathing pattern runs in parallel to fidgeting</li>
+            <li>User may begin to mirror rythm</li>
+            <li>Movement slows</li>
+            <li>Transition into stillness and breath</li>
+        </ol>
 
-<p>redesigned the experience focusing on meeting users where they are, not forcing calm immediately.
-</p>
+        <p>
+            This creates a gradual shift from energy release to regulation.
+        </p>
 
-<p>
-1. User reaches for the object during stress<br>
-2. Fidgeting begins naturally<br>
-3. Breathing pattern runs in parallel<br>
-4. User may begin to mirror rhythm<br>
-5. Movement slows<br>
-6. Transition into stillness and breath
-</p>
+        <!-- USER TESTING -->
+        <h2>User Testing & Research</h2>
 
-<p>
-This creates a gradual shift from energy release to regulation.
-</p>
+        <p>
+            Initial testing focused on tactile interaction. I designed and printed a box with multiple different fidgets to understand what types of input were calming versus distracting. The overwhelming consensus being: movement is key.
+        </p>
 
-<!-- USER TESTING -->
-<div class="section-title"><h2>User Testing & Research</h2></div>
+        <p>
+            A major insight was that most fidget tools are designed to release energy, not regulate it. This shifted the focus toward slower, more controlled interactions.
+        </p>
 
-<p>
-Initial testing focused on tactile interaction. I designed and printed a box with multiple different fidgets to understand what types of input were calming versus distracting. The overwhelming consensus being: movement is key.</p>
+        <div class="flex-images">
+            <img src="../portfolioImg/capstone/fidgetBox1.JPG" 
+                alt="fidget box side 1">
+            <img src="../portfolioImg/capstone/fidgetBox2.JPG" 
+                alt="fidget box side 2">
+        </div>
 
-<p>
-A major insight was that most fidget tools are designed to release energy, not regulate it. This shifted the focus toward slower, more controlled interactions.
-</p>
+        <!-- PROBLEMS -->
+        <h2>Problems & Solutions</h2>  
 
-<div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px; margin:20px 0;">
-    <img src="../portfolioImg/capstone/fidgetBox1.JPG" 
-        alt="fidget box side 1"
-        style="width:100%; height:auto; display:block;">
-    <img src="../portfolioImg/capstone/fidgetBox2.JPG" 
-        alt="fidget box side 2"
-        style="width:100%; height:auto; display:block;">
-</div>
+        <h3>Fidgets encouraged distraction, not regulation</h3>
+        <p>
+            Most early designs allowed fast, repetitive motion. This reinforced restless behavior instead of calming it.
+        </p>
+        <p>
+            <strong>Solution:</strong> Introduced resistance, slower mechanics, and breathing-based motion to guide interaction.
+        </p>
 
-<!-- CONSIDERATIONS -->
-<!-- <div class="section-title"><h2>Biggest Considerations</h2></div>
+        <h3>Form was unclear and uncomfortable</h3>
+        <p>
+            Users didn't instinctively know how to hold the object, and certain features interfered with grip.
+        </p>
+        <p>
+            <strong>Solution:</strong> Redesigned proportions and positioning to create a clear, natural hand placement.
+        </p>
+        <div class="flex-images">
+            <img src="../portfolioImg/capstone/form1Front.JPG" 
+                alt="first form front side">
+            <img src="../portfolioImg/capstone/form2.png" 
+                alt="new form">
+        </div>
 
-<p>
-<ul>
-    <li>
+        <h3>Internal components did not fit</h3>
+        <p>
+            The battery, motor, and sensors repeatedly conflicted with the physical form.
+        </p>
+        <p>
+            <strong>Solution:</strong> Iteratively scaled the model and reorganized internal layout to accommodate all components.
+        </p>
 
-    </li>
-</ul>
-<strong>Physical guidance:</strong> movement and resistance needed to encourage slower behavior
-</p> -->
+        <div class="flex-images">
+            <img src="../portfolioImg/capstone/cutOutFilled.png" 
+                alt="Redesign filled with objects">
+            <img src="../portfolioImg/capstone/cutOutEmpty.png" 
+                alt="Redesign empty">
+        </div>
 
-<!-- PROBLEMS -->
-<div class="section-title"><h2>Problems & Solutions</h2></div>
+        <h3>Touch sensing was inconsistent</h3>
+        <p>
+            Material thickness prevented reliable detection through the shell.
+        </p>
+        <p>
+            <strong>Solution:</strong> Adjusted thickness and introduced copper tape to expand the sensing area.
+        </p>
 
-<h3>Fidgets encouraged distraction, not regulation</h3>
-<p>
-Most early designs allowed fast, repetitive motion. This reinforced restless behavior instead of calming it.
-</p>
-<p>
-<strong>Solution:</strong> Introduced resistance, slower mechanics, and breathing-based motion to guide interaction.
-</p>
+        <div style="margin:20px 0;">
+            <video style="width:100%; height:auto;" controls muted>
+                <source src="../portfolioImg/capstone/touchSensor.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
 
-<h3>Form was unclear and uncomfortable</h3>
-<p>
-Users didn't instinctively know how to hold the object, and certain features interfered with grip.
-</p>
-<p>
-<strong>Solution:</strong> Redesigned proportions and positioning to create a clear, natural hand placement.
-</p>
-<div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px; margin:20px 0;">
-    <img src="../portfolioImg/capstone/form1Front.JPG" 
-        alt="first form front side"
-        style="width:100%; height:auto; display:block;">
-    <img src="../portfolioImg/capstone/form2.png" 
-        alt="new form"
-        style="width:100%; height:auto; display:block;">
-</div>
-
-<h3>Internal components did not fit</h3>
-<p>
-The battery, motor, and sensors repeatedly conflicted with the physical form.
-</p>
-<p>
-<strong>Solution:</strong> Iteratively scaled the model and reorganized internal layout to accommodate all components.
-</p>
-
-<div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px; margin:20px 0;">
-    <img src="../portfolioImg/capstone/cutOutFilled.png" 
-        alt="Redesign filled with objects"
-        style="width:100%; height:auto; display:block;">
-    <img src="../portfolioImg/capstone/cutOutEmpty.png" 
-        alt="Redesign empty"
-        style="width:100%; height:auto; display:block;">
-</div>
-
-<h3>Touch sensing was inconsistent</h3>
-<p>
-Material thickness prevented reliable detection through the shell.
-</p>
-<p>
-<strong>Solution:</strong> Adjusted thickness and introduced copper tape to expand the sensing area.
-</p>
-
-<div style="margin:20px 0;">
-    <video style="width:100%; height:auto;" controls>
-        <source src="../portfolioImg/capstone/touchSensor.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>
-
-<h3>Chest plate motion failed</h3>
-<p>
-    The motor did not have enough range of motion to allow for enough rotation for my original plan to move the chest piece.
-</p>
-<p>
-    <strong>Solution:</strong> Tested many different systems and landed on an arm crank.
-</p>
-<div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px; margin:20px 0;">
-    <img src="../portfolioImg/capstone/screw3DDesign.png" 
-        alt="screw 3D design"
-        style="width:100%; height:auto; display:block;">
-    <img src="../portfolioImg/capstone/arm3DDesign.png" 
-        alt="arm crank 3D design"
-        style="width:100%; height:auto; display:block;">
-</div>
+        <h3>Chest plate motion failed</h3>
+        <p>
+            The motor did not have enough range of motion to allow for enough rotation for my original plan to move the chest piece.
+        </p>
+        <p>
+            <strong>Solution:</strong> Tested many different systems and landed on an arm crank.
+        </p>
+        <div class="flex-images">
+            <img src="../portfolioImg/capstone/screw3DDesign.png" 
+                alt="screw 3D design">
+            <img src="../portfolioImg/capstone/arm3DDesign.png" 
+                alt="arm crank 3D design">
+        </div>
 
 
-<!-- <h3>Motion felt unnatural</h3>
-<p>
-Motors either moved too quickly or lacked enough power for controlled motion.
-</p>
-<p>
-<strong>Solution:</strong> Tested multiple configurations and redesigned placement to achieve slower, more stable movement.
-</p> -->
+        <!-- <h3>Motion felt unnatural</h3>
+        <p>
+        Motors either moved too quickly or lacked enough power for controlled motion.
+        </p>
+        <p>
+        <strong>Solution:</strong> Tested multiple configurations and redesigned placement to achieve slower, more stable movement.
+        </p> -->
 
 
-<!-- FINAL -->
-<div class="section-title"><h2>Final Iteration</h2></div>
+        <!-- FINAL -->
+        <div class="section-title"><h2>Final Iteration</h2></div>
 
-<p>
-    Currently, I do not have a working final product. My battery blew out after it was assembled because it had accidentally been running overnight. So, I am awaiting a new battery hoping things will work as intended and knowing in my heart that it won't. 
-</p>
+        <p>
+            Currently, I do not have a working final product. My battery blew out after it was assembled because it had accidentally been running overnight. So, I am awaiting a new battery hoping things will work as intended and knowing in my heart that it won't. 
+        </p>
 
-<!-- REFLECTION -->
-<div class="section-title"><h2>Reflection</h2></div>
+        <div class="video-grid" id="capstoneVideo">
+            <video controls muted>
+                <source src="../portfolioImg/capstone/chestPlateWorking.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls muted>
+                <source src="../portfolioImg/capstone/touchSensorWorking.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
 
-<!-- <p>
-This project fundamentally changed how I think about behavior design. What started as a system focused on motivation and accountability became an exploration of how physical interaction can support mental regulation.
-</p>
+        <!-- REFLECTION -->
+        <h2>Reflection</h2>
 
-<p>
-I learned that effective design in this space requires subtlety. Instead of pushing users toward a goal, the experience should support them where they already are.
-</p>
+        <!-- <p>
+        This project fundamentally changed how I think about behavior design. What started as a system focused on motivation and accountability became an exploration of how physical interaction can support mental regulation.
+        </p>
 
-<p>
-The biggest takeaway was understanding that small, intentional interactions can have a stronger impact than complex systems when they align with how people naturally behave.
-</p> -->
+        <p>
+        I learned that effective design in this space requires subtlety. Instead of pushing users toward a goal, the experience should support them where they already are.
+        </p>
 
-<p>
-    This project has fundamentally changed who I thought I was.
-</p>
-<p>
-    I understand that I really enjoy 3D design but can become frustrated when bringing that into the real world.
-</p>
-<p>
-    I like working with circuits but only when they behave as they should and can have my day ruined by a technical issue that takes time to understand.
-</p>
-<p>
-    I have been told that I am resilient but I never understood what that meant until this project. The problems that I outlined in this documentation are only a drop in the bucket of the issues that occurred while attempting to complete this. And yet I took them as they came and made it work.
-</p>
-<p>
-    Comparison is my biggest enemy. With my change in idea I had many weeks less than my fellow classmates to complete this project yet still held the expectation that it would be at the same level as theirs.
-</p>
-<p>
-    Work can not be my whole world. I have spent the past month working on this basically nonstop with little time for friends or other projects. And now I graduate in one week and have had no time to enjoy my last weeks in Colorado and still have three other final projects to complete.
-</p>
-<p>
+        <p>
+        The biggest takeaway was understanding that small, intentional interactions can have a stronger impact than complex systems when they align with how people naturally behave.
+        </p> -->
 
-</p>
-<p>
-    If I could do this project over again, there are many things that I would do differently. 
-</p>
+        <p>
+            This project has fundamentally changed who I thought I was.
+        </p>
+        <p>
+            I really enjoy 3D design but can become frustrated when bringing that into the real world.
+        </p>
+        <p>
+            I like working with circuits but only when they behave as they should and I can have my day ruined by a technical issue that takes time to understand.
+        </p>
+        <p>
+            I have been told that I am resilient but I never understood what that meant until this project. The problems that I outlined in this documentation are only a drop in the bucket of the issues that occurred while attempting to complete this, and yet I took them as they came and made it work.
+        </p>
+        <p>
+            Comparison is my biggest enemy. With my change in idea I had much less time than my fellow classmates to complete this project yet still held the expectation that it would be at the same level as theirs.
+        </p>
+        <p>
+            Work can not be my whole world. I have spent the past month working on this basically nonstop with little time for friends or other projects. And now I graduate in one week and have had no time to enjoy my last weeks in Colorado and still have three other final projects to complete.
+        </p>
+        <p>
+            If I could do this project over again, there are many things that I would do differently. 
+        </p>
 
-</div>
+        <h2>Second reflection</h2>
+        <p>
+            This reflection is coming 4 months after this project was due. The new battery came in, it was working and then it wasn't. Every connection was checked and stable and the battery was still working, so I don't really know why it wouldn't turn on. 
+        </p>
+        <!-- <p>
+            My mantra has always been "everything will work out, because it always has." Whenever I feel burnt out or overworked or stressed becasue of a project, that is what I would tell myself. That it would all turn out okay becuase there has never been a time where it hadn't. I have always pushed myself to make it work. So, with this project ultimately not meeting the deadline and remaining unfinished, it has really changed my fundamental belief of my work. 
+        </p> -->
+        <p>
+            I feel my last reflection was a little exaggerated due to my frustrations with the impending outcome of this project. Yes, I have learned many things from this project that were earned out of frustration. But I have also learned failure and acceptance of that. I have learned that things do not always turn out as we expect but it is not the end of the world. I still graduated, and in ten years time I will look back on this and think about the amount of effort I put in and the amazing moral support of my professor. Not the fact that in the end it didn't work.
+        </p>
+        <p>
+            I hope to one day feel less overwhelmed by this whole experience and revisit this project for my own peace of mind. So maybe this won't be the last update. 
+        </p>
+    </section>
 
-<!-- FOOTER -->
-<section id="footer">
-    <div class="wave-divider">
-    <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
-        <path fill="white" 
-        d ="M0,96L48,101.3C96,107,192,117,288,128C384,139,480,149,576,138.7C672,128,768,96,864,80C960,64,1056,64,1152,80C1248,96,1344,128,1392,144L1440,160L1440,0L0,0Z">
-        </path>
-    </svg>
-    </div>
-
-    <div id="footerText">
-    <img id="logoFooter" src="../portfolioImg/gabbyLogo2.png">
-    <p>Gabby Fuselier</p>
-    <p><a href="#">LinkedIn</a></p>
-    <p><a href="#">gabbyfuselier25@gmail.com</a></p>
-    </div>
-</section>
+    <!-- Footer -->
+    <section id="footer">
+        <img src="../portfolioImg/gabbyLogo2.png">
+        <h1>Gabby Fuselier</h1>
+        <div class="footer-links">
+            <a href="aboutMe.html">About me</a>
+            <a href="projects.html">Projects</a>
+        </div>
+        <p><a href="https://www.linkedin.com/in/gabrielle-fuselier/" target="_blank">LinkedIn</a></p>
+        <p><a href="mailto:gabbyfuselier25@gmail.com">gabbyfuselier25@gmail.com</a></p>
+    </section>
+    <script src="js/portfolio.js"></script>
 
 </body>
 </html>
-
-
-
-

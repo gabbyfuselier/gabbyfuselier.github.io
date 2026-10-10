@@ -333,6 +333,12 @@ h1 a:hover {
 .fullSection h1{
     padding:0.5rem 0rem;
 }
+
+.aboutMe{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .aboutMe p{
     padding: 0.5rem 0rem;
 }
@@ -381,10 +387,6 @@ h1 a:hover {
     /* font-weight: bold; */
 }
 
-/* .projects p{
-    padding: 0.5rem 0.75rem;
-} */
-
 .projects-grid .projects-card:hover{
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transform: translateY(-2px);
@@ -392,6 +394,102 @@ h1 a:hover {
     /* background-color: var(--secondary-color); */
 }
 
+/* Individual projects pages */
+.case-hero-image img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#CMZooHero img{
+    object-fit:scale-down;
+    background-color: white;
+}
+
+.project{
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    padding: 0rem 1.5rem;
+}
+
+.project h1{
+    font-size: 70px;
+    padding: 2rem 0 0 0;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.project h2{
+    padding: 1rem 0 0.5rem 0;
+    color: var(--primary-color);
+}
+
+.project h3{
+    padding: 0.5rem 0rem;
+    color: var(--secondary-color);
+}
+
+.project h4{
+    padding: 0 0 2rem 0;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.project p{
+    padding: 0.5rem 1rem;
+}
+
+.project ol{
+    padding: 0.5rem 4rem;
+}
+
+.project .single-image img{
+    width: 100%;
+    padding:1rem 0rem;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.video-grid video {
+    width: 100%;
+    aspect-ratio: 7 / 6;
+    object-fit: cover;
+    display: block;
+}
+
+#capstoneVideo video:first-child{
+    object-position: 40% 60%;
+}
+
+.flex-images{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    /* padding-top: 1rem; */
+    padding:1rem 0rem;
+}
+
+.flex-images img{
+    flex-grow: 1;
+    width: 0;
+    object-fit: cover;
+}
+
+.two-image-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 1rem 0;
+}
+
+.two-image-grid img{
+    width:100%;
+}
 
 
 /* Media Screen */
@@ -415,6 +513,31 @@ h1 a:hover {
 
     .hero p{
         padding-top:0.5rem;
+    }
+
+    .video-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .flex-images{
+        display:block;
+        padding-bottom: 0rem;
+        /* padding-bottom:50px; */
+    }
+
+    .flex-images img{
+        height:auto;
+        width:100%;
+        padding-bottom:1rem;
+    }
+
+    .two-image-grid{
+        display:block;
+    }
+
+    .two-image-grid img{
+        padding-bottom: 1rem;
     }
 
 }
